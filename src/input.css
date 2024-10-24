@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background-color: red;
+  background: thistle;
 }
 h1 {
   color: #9ca3af;
