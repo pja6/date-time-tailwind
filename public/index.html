@@ -3,28 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/input.css">
-    <script src="script.js" class="js"></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Current Day/Time</title>
 </head>
 
     <body class="h-screen flex justify-center items-center">
     
         <time class="container mx-auto block grid lg:grid-cols-4 md:grid-cols-4">
-        <data class="hours block">HH</data>
-        <data class="minutes block">MM</data>
-        <data class="seconds block">SS</data>
+        <data class="hours block text-9xl">HH</data>
+        <data class="colon text-9xl">:</data>
+        <data class="minutes block text-9xl">MM</data>
+        <data class="seconds block text-7xl">SS</data>
         <data class="amOrPM block">AM/PM</data>
         </time>
 
         <time class="container mx-auto block grid lg:grid-cols-4 md:grid-cols-4">
           <data class="month text-9xl">Month</data>
-          <data class="dayOfMonth bg-green-400">00</data>
+          <data class="dayOfMonth">00</data>
           <data class="year">0000</data>
           <data class="dayOfWeek">SMTWTFS</data>
         </time>
         
         
-       
+        <script src="script.js" class="js"></script>
+    
 </body>
 </html>
