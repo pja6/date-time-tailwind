@@ -55,7 +55,7 @@ const theClockApp = () => {
     // Set the minutes
     minutes.innerText = gotMinutes;
     // Set the seconds
-    seconds.innerText = gotSeconds;
+    //seconds.innerText = gotSeconds;
     // Set AM or PM
     amOrPM.innerText = gotAmOrPM;
     // Set `datetime` attribute
